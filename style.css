@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: green;
+}
+
+li {
+    margin-right: 20px;
+    display: inline;
+    font-size: 16pt;
+}
+
+#uno {
+    width: 650px;
+    height: auto;
+}
+
+body {
+    background-color: tan;
+}
