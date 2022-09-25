@@ -19,13 +19,20 @@ li {
 }
 
 #uno {
-    width: 650px;
+    width: 800px;
     height: auto;
 }
 
-/*
-body {
-    background-image: url(./images/sd.png);
 
+body {
+    background-color: tan;
+    /*background-image: url(./images/sd.png);*/
+    color: #386398FF;
 }
-*/
+
+#self {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
