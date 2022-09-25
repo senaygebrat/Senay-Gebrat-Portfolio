@@ -1,5 +1,10 @@
+/*:root {
+
+}
+*/
+
 h1 {
-    color: #386398FF;
+    color: blue;
     text-align: center;
 }
 
@@ -13,7 +18,7 @@ h4 {
 
 ul {
     list-style-type: none;
-    color: green;
+    color: blue;
 }
 
 li {
@@ -30,8 +35,8 @@ li {
 
 body {
     background-color: tan;
-    /*background-image: url(./images/sd.png);*/
-    color: #386398FF;
+    background-image: url(./images/cool-background.png);
+    color: blue;
 }
 
 #self {
