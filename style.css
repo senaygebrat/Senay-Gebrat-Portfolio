@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    font-size: 24pt;
+}
+
 .navbar {
     text-align: center;
 }
@@ -39,4 +43,9 @@ body {
 
 p {
     font-size: 16pt;
+}
+
+#dos {
+    width: 450px;
+    height: none;
 }
