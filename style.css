@@ -3,6 +3,7 @@ h1 {
     text-align: center;
 }
 
+/*headers listing each section of launch page*/
 h4 {
     font-size: 24pt;
     text-align: center;
@@ -29,7 +30,6 @@ li {
 #uno {
     width: 800px;
     height: auto;
-
 }
 
 /*added a url link to enhace the background*/
@@ -56,6 +56,7 @@ p {
     height: none;
 }
 
+/*flexbox to center class selectors in the screen, same for .col*/
 .center {
     text-align: center;
 }
