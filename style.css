@@ -28,13 +28,14 @@ li {
 
 /*increased the width for the first application*/
 #uno {
-    width: 800px;
+    width: 900px;
     height: auto;
 }
 
 /*added a url link to enhace the background*/
 body {
     color: blue;
+    /* background-color: tan; */
     background-image: url(./images/cool-background.png);
 }
 
@@ -73,9 +74,29 @@ p {
 .flex {
     display: flex;
 }
+
+/*when screen size is 600px or less, background image and font color changes*/
 @media screen and (max-width: 600px) {
+    body {
+        background-image: url(./images/backup.png);
+        color: yellow;
+    
+    }
+    h1 {
+        color: yellow;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
     body {
         background-color: tan;
     }
-}
+} */
+    
+/* } 
+body {
+        background-image: url(./images/cool-background.png);
+    }
+} */
+
 
