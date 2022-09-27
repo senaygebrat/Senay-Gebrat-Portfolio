@@ -1,8 +1,3 @@
-/*:root {
-
-}
-*/
-
 h1 {
     color: blue;
     text-align: center;
@@ -10,12 +5,15 @@ h1 {
 
 h4 {
     font-size: 24pt;
+    text-align: center;
 }
 
+/*centered the text in the navbar for spacing purposes*/
 .navbar {
     text-align: center;
 }
 
+/*listing the navbar links and color as blue*/
 ul {
     list-style-type: none;
     color: blue;
@@ -27,18 +25,20 @@ li {
     font-size: 16pt;
 }
 
+/*increased the width for the first application*/
 #uno {
     width: 800px;
     height: auto;
+
 }
 
-
+/*added a url link to enhace the background*/
 body {
-    background-color: tan;
-    background-image: url(./images/cool-background.png);
     color: blue;
+    background-image: url(./images/cool-background.png);
 }
 
+/*self photo, sized and margined to fit front center*/
 #self {
     width: 400px;
     display: block;
@@ -50,7 +50,31 @@ p {
     font-size: 16pt;
 }
 
+/*smaller width for the secondary application*/
 #dos {
     width: 450px;
     height: none;
 }
+
+.center {
+    text-align: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+
+}
+
+.flex {
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: tan;
+    }
+}
+

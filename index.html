@@ -3,12 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css"/>
+        <meta name="viewport" content="width-device-width, initial scale=1" />
         <title>Senay Gebrat's Portfolio</title>
     </head>
-
+   
+    
+    <main>
     <header>
         <h1>Senay Gebrat's Portfolio</h1>
 
+        <!--Navigation bar with a class selector for placement-->
         <nav class="navbar">
             <ul>
                 <li> Home</li>
@@ -23,22 +27,33 @@
         <section id="aboutme">
             <h4>About Me</h4>
             <img id="self" src="./images/senay.png" alt="Picture of Senay">
-            <p>I'm a native Californian that has lived in Atlanta since 2009. My favorite sport is basketball and I watch the NBA champion Golden State Warriors faithfully!</p>
+            <p class="center">I'm a native Californian that has lived in Atlanta since 2009. My favorite sport is basketball and I watch the NBA champion Golden State Warriors faithfully!</p>
         </section>
         <section id="projects">
             <h4>Projects</h4>
-            <a href="https://senaygebrat.github.io/Horiseon-access/">
-                <img id="uno" src="./images/horiseon-social-solutions.png" alt="Screenshot of website">
-            </a>
-            <a href="https://senaygebrat.github.io/Visitor-Sign-Up/">
-                <img id="dos" src="./images/sign-up.png">
-            </a>
-            <img src="">
-            <p></p>
+            <div class="flex col center">
+                <div class="">
+                    <a href="https://senaygebrat.github.io/Horiseon-access/">
+                    <img id="uno" src="./images/horiseon-social-solutions.png" alt="Screenshot of website">
+                </a>
+                </div>
+                
+                <div class="row">
+                    <a href="https://senaygebrat.github.io/Visitor-Sign-Up/">
+                        <img id="dos" src="./images/sign-up.png">
+                    </a>
+                    <a href="https://senaygebrat.github.io/Visitor-Sign-Up/">
+                        <img id="dos" src="./images/sign-up.png">            
+                    </a> 
+                </div>
+            </div>
+            
+
         </section>
+
         <section id="contact">
             <h4>Contact</h4>
-            <p>
+            <p class="center">
                 <a href="https://github.com/senaygebrat">Github<a> 
                 <a href="https://www.linkedin.com/in/senay-gebrat-566b78250/">LinkedIn</a>
                 <a href="mailto:senaygebrat@gmail.com">Gmail</a>
@@ -46,3 +61,6 @@
         </section>
 
     </body>
+
+    </main>
+   </html>
