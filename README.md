@@ -1,7 +1,7 @@
 # Senay-Gebrat-Portfolio
 ![Site image](./images/site-image.png)
 
-[Updated Site]
+[Updated Site](https://senaygebrat.github.io/Senay-Gebrat-Portfolio/)
 
 ## About Senay Gebrat Portfolio
 This is a launch page for Senay Gebrat's Portfolio.
